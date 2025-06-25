@@ -53,8 +53,40 @@ body{
     padding: 10px;
     color: white;
 }
+.sales__image{
+position: relative;
+}
 .sales__image img{
     width: 100%;
+}
+.sales__offer{
+  border:2px solid black;
+  width: 25%;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding: 2%;
+
+
+}
+.droupdown{
+position: relative;
+cursor: pointer;
+}
+.droupdownli{
+position: absolute;
+width: 100px;
+padding: 20px;
+border: 2px solid black;
+background-color: white;
+right: 2px;
+top: 50px;
+z-index: 1;
+display: none;
+}
+.droupdown:hover .droupdownli{
+    display: block;
 }
 .recom_sec1 img{
     width: 300px;
